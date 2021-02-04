@@ -11,7 +11,7 @@ namespace NicolasLogica
         public object Profesion { get; set; }
         public string Bufete { get; set; }
 
-        public void DatosMedico()
+        public void Datos()
         {
             Resultado = Nombre + Apellido;
         }

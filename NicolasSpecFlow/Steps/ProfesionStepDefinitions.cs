@@ -19,7 +19,7 @@ namespace NicolasAppWeb.Steps
         public ProfesionStepDefinitions(ScenarioContext scenarioContext)
         {
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-            driver.Navigate().GoToUrl("http://localhost:59767");
+            driver.Navigate().GoToUrl("http://localhost:52400");
         }
 
         [Given("el nombre es (.*)")]

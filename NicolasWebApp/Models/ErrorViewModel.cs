@@ -1,6 +1,6 @@
 using System;
 
-namespace MishelWeb.Models
+namespace NicolasWeb.Models
 {
     public class ErrorViewModel
     {

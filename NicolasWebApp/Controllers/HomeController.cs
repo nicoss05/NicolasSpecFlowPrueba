@@ -1,13 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using MishelWeb.Models;
-using System;
-using System.Collections.Generic;
+using NicolasWeb.Models;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace MishelWeb.Controllers
+namespace NicolasWeb.Controllers
 {
     public class HomeController : Controller
     {

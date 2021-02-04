@@ -21,14 +21,14 @@ namespace NicolasSpecflow.Features
             logica.Apellido = apellido;
         }
 
-        [When(@"los datos son")]
+        [When(@"los datos son agregados")]
         public void CuandoLosDatosSon()
         {
-            logica.DatosMedico();
+            logica.Datos();
         }
 
-        [Then(@"el resultado debe sera ""(.*)""")]
-        public void EntoncesElResultadoDebeSer(string esperado)
+        [Then(@"el resultado sera ""(.*)""")]
+        public void EntoncesElResultadoSera(string esperado)
         {
             Assert.AreEqual(esperado, logica.Resultado);
         }

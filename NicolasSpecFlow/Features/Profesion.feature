@@ -9,8 +9,8 @@ Link to a feature: [Calculator](SpecFlowTest/Features/Calculator.feature)
 Escenario: Datos 
 	Dado que el nombre es "Nicolas"
 	Y su apellido es "Suarez"
-	Cuando los datos son
-	Entonces el resultado debe sera "NicolasSuarez"
+	Cuando los datos son agregados
+	Entonces el resultado sera "NicolasSuarez"
 
 	Escenario: Profesion Datos
 	Dado que la profesion es "Abogado"

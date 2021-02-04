@@ -131,10 +131,10 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.And("su apellido es \"Suarez\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Y ");
 #line hidden
 #line 12
- testRunner.When("los datos son", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Cuando ");
+ testRunner.When("los datos son agregados", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Cuando ");
 #line hidden
 #line 13
- testRunner.Then("el resultado debe sera \"NicolasSuarez\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entonces ");
+ testRunner.Then("el resultado sera \"NicolasSuarez\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entonces ");
 #line hidden
             }
             this.ScenarioCleanup();
